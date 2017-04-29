@@ -1,0 +1,42 @@
+@font-face {
+  src: url(fonts/OpenSans-Light.ttf);
+  font-family: 'OpenSans-Light';
+}
+@font-face {
+  src: url(fonts/OpenSans-Lightitalic.ttf);
+  font-family: 'OpenSans-Lightitalic';
+}
+@font-face {
+  src: url(fonts/OpenSans-Italic.ttf);
+  font-family: 'OpenSans-Italic';
+}
+@font-face {
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-family: 'OpenSans-Regular';
+}
+@font-face {
+  src: url(fonts/OpenSans-Semibold.ttf);
+  font-family: 'OpenSans-Semibold';
+}
+@font-face {
+  src: url(fonts/OpenSans-SemiboldItalic.ttf);
+  font-family: 'OpenSans-SemiboldItalic';
+}
+@font-face {
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-family: 'OpenSans-Bold';
+}
+@font-face {
+  src: url(fonts/OpenSans-BoldItalic.ttf);
+  font-family: 'OpenSans-BoldItalic';
+}
+@font-face {
+  src: url(fonts/OpenSans-ExtraBold.ttf);
+  font-family: 'OpenSans-Light';
+}
+@font-face {
+  src: url(fonts/OpenSans-ExtraBoldItalic.ttf);
+  font-family: 'OpenSans-Light';
+}
+
+/*# sourceMappingURL=main.css.map */
