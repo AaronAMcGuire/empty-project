@@ -1,0 +1,16 @@
+.hero
+{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+  flex-direction: column;
+
+  &__title
+  {
+
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    @include font-size(50px);
+  }
+}

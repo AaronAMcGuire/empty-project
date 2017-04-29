@@ -4,11 +4,7 @@ doctype html
 html(lang='en-gb')
   include parts/header.pug
   body
-    header
-      nav
-        ul
-          each val in ['placeholder','placeholder','placeholder','placeholder','placeholder']
-            li
-              a(class='' href='' title='')= val
-         
+    section(class='hero')
+      h1(class='hero__title') Empty Project 
+      a(class='btn' href='https://github.com/AaronAMcGuire/empty-project' title='Go to Aarons empty project repo')  Go to Aarons Repo 
     include parts/footer.pug

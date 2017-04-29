@@ -1,42 +1,86 @@
 @font-face {
-  src: url(fonts/OpenSans-Light.ttf);
+  src: url(../../fonts/OpenSans-Light.ttf);
   font-family: 'OpenSans-Light';
 }
 @font-face {
-  src: url(fonts/OpenSans-Lightitalic.ttf);
+  src: url(../../fonts/OpenSans-Lightitalic.ttf);
   font-family: 'OpenSans-Lightitalic';
 }
 @font-face {
-  src: url(fonts/OpenSans-Italic.ttf);
+  src: url(../../fonts/OpenSans-Italic.ttf);
   font-family: 'OpenSans-Italic';
 }
 @font-face {
-  src: url(fonts/OpenSans-Regular.ttf);
+  src: url(../../fonts/OpenSans-Regular.ttf);
   font-family: 'OpenSans-Regular';
 }
 @font-face {
-  src: url(fonts/OpenSans-Semibold.ttf);
+  src: url(../../fonts/OpenSans-Semibold.ttf);
   font-family: 'OpenSans-Semibold';
 }
 @font-face {
-  src: url(fonts/OpenSans-SemiboldItalic.ttf);
+  src: url(../../fonts/OpenSans-SemiboldItalic.ttf);
   font-family: 'OpenSans-SemiboldItalic';
 }
 @font-face {
-  src: url(fonts/OpenSans-Bold.ttf);
+  src: url(../../fonts/OpenSans-Bold.ttf);
   font-family: 'OpenSans-Bold';
 }
 @font-face {
-  src: url(fonts/OpenSans-BoldItalic.ttf);
+  src: url(../../fonts/OpenSans-BoldItalic.ttf);
   font-family: 'OpenSans-BoldItalic';
 }
 @font-face {
-  src: url(fonts/OpenSans-ExtraBold.ttf);
+  src: url(../../fonts/OpenSans-ExtraBold.ttf);
   font-family: 'OpenSans-Light';
 }
 @font-face {
-  src: url(fonts/OpenSans-ExtraBoldItalic.ttf);
+  src: url(../../fonts/OpenSans-ExtraBoldItalic.ttf);
   font-family: 'OpenSans-Light';
+}
+.btn {
+  margin: 20px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  background-color: #1b8bf9;
+  padding: 15px 50px;
+  border-radius: 5rem;
+  box-shadow: 1px 2.9px 16px rgba(27, 139, 249, 0.4);
+  transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+}
+.btn:hover {
+  box-shadow: 3px 4.9px 16px rgba(27, 139, 249, 0.6);
+  letter-spacing: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'OpenSans-Regular';
+  background: #C93086;
+}
+
+h1 {
+  color: #FFF;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.hero__title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 /*# sourceMappingURL=main.css.map */

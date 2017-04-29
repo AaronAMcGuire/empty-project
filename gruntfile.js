@@ -73,7 +73,7 @@ sass_globbing: {
   },
   target: {
     files: {
-      'dist/styles/main.min.css': 'src/styles/main.css'
+      'dist/styles/main.css': 'src/styles/main.css'
     }
   }
 },
