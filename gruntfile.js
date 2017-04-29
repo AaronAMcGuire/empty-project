@@ -106,7 +106,14 @@ htmlmin: {
         dest: 'dist/images/'                  // Destination path prefix
       }]
     }
-  }
+  },
+  csscomb: {
+       optimisation: {
+           files: {
+               'dist/main.css': ['dist/main.css']
+           }
+       }
+   }
 
 
 
@@ -142,6 +149,11 @@ grunt.registerTask('optimise', function() {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+
+
+  //micro-optimisation tasks
+
+  grunt.loadNpmTasks('grunt-csscomb');
 
 
 
