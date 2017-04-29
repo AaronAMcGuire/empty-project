@@ -4,7 +4,7 @@
   "description": "setup to be used as a baseline on all projects",
   "main": "gruntfile.js",
   "scripts": {
-    "test": "default"
+    "test": "watch"
   },
   "author": "Aaron McGuire",
   "license": "ISC",
